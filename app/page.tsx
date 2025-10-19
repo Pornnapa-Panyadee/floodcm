@@ -14,20 +14,15 @@ export default function HomePage() {
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="mb-8 text-center">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl text-balance">
-            ระบบเตือนภัยน้ำท่วมเขตเมือง
-          </h1>
+          <h3 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-2xl text-balance">
+            ระบบเตือนภัยน้ำท่วมเขตเมือง จังหวัดเชียงใหม่
+          </h3>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground text-pretty">
-            ติดตามสถานการณ์น้ำท่วมแบบเรียลไทม์ ตรวจสอบพื้นที่เสี่ยง และรับการแจ้งเตือนล่วงหน้า
+            CMFlood : Urban Flood Warning Systems in Chiang Mai
           </p>
         </div>
 
-        {/* Current Alert */}
-        <Alert className="mb-8 border-accent bg-accent/10">
-          <AlertTriangle className="h-5 w-5 text-accent-foreground" />
-          <AlertTitle className="text-accent-foreground">สถานการณ์ปัจจุบัน</AlertTitle>
-          <AlertDescription className="text-accent-foreground/90">ระดับน้ำปกติ - ไม่มีการเตือนภัยในขณะนี้</AlertDescription>
-        </Alert>
+       
 
         {/* Quick Stats */}
         <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
